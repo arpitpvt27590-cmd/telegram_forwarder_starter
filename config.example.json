@@ -1,0 +1,47 @@
+{
+  "session_name": "primary",
+  "jobs": [
+    {
+      "name": "flezen",
+      "enabled": true,
+      "source": "SOURCE_CHAT_USERNAME_OR_ID",
+      "destination": "DESTINATION_CHANNEL_USERNAME_OR_ID",
+      "match_domains": [
+        "flezen.com"
+      ],
+      "ignore_bot_messages": true,
+      "ignore_text": [],
+      "include_media": true,
+      "history_limit": 0,
+      "history_delay_seconds": 1
+    },
+    {
+      "name": "diskwala",
+      "enabled": false,
+      "source": "SOURCE_CHAT_USERNAME_OR_ID",
+      "destination": "DESTINATION_CHANNEL_USERNAME_OR_ID",
+      "match_domains": [
+        "diskwala.com"
+      ],
+      "ignore_bot_messages": true,
+      "ignore_text": [],
+      "include_media": true,
+      "history_limit": 0,
+      "history_delay_seconds": 1
+    },
+    {
+      "name": "vidbunker",
+      "enabled": false,
+      "source": "SOURCE_CHAT_USERNAME_OR_ID",
+      "destination": "DESTINATION_CHANNEL_USERNAME_OR_ID",
+      "match_domains": [
+        "vidbunker.in/watch/"
+      ],
+      "ignore_bot_messages": true,
+      "ignore_text": [],
+      "include_media": true,
+      "history_limit": 0,
+      "history_delay_seconds": 1
+    }
+  ]
+}
